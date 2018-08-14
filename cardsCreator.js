@@ -33,7 +33,7 @@ const createCards = (images, types, amount) => {
             id: `CARD_${i}`,
             name: `BANK_${i}`,
             image: images[imageId],
-            type: typeId,
+            type: cardTypes[typeId],
             repayments: {
                 balanceFee: {
                     amount: balanceFeeAmount,
