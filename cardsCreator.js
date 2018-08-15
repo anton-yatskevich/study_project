@@ -17,8 +17,9 @@ const cardTypes = [
 
 const createCards = (images, types, amount) => {
 	const cards = [];
+	let i = 1;
 
-	for (let i = 1; i <= amount; i + 1) {
+	for (i; i <= amount; i += 1) {
 		const imageId = Math.floor(Math.random() * images.length);
 		const typeId = Math.floor(Math.random() * types.length);
 		const balanceFeeMonths = Math.floor(Math.random() * 12 + 1);
