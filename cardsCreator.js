@@ -38,11 +38,11 @@ const createCards = (images, types, amount) => {
 			repayments: {
 				balanceFee: {
 					amount: balanceFeeAmount,
-					months: balanceFeeMonths,
+					month: balanceFeeMonths,
 				},
 				costToYou: {
 					amount: costAmount,
-					months: costMonths,
+					month: costMonths,
 				},
 			},
 			representativeExmp: {
