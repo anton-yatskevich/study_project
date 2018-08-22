@@ -1,11 +1,12 @@
 const cardImgs = [
-	'http://pluspng.com/img-png/credit-card-png-credit-card-png-image-708.png',
-	'https://www.imbank.com/rwanda/wp-content/uploads/2014/08/gold-credit-card-Recovered.png',
+	'https://cdn.comparecards.com/uploads/images/items/3402.png',
+	'https://d31s10tn3clc14.cloudfront.net/imgs/card_imgs/1002001v3.png',
+	'https://www.icicibank.com/managed-assets/images/credit-card-calculator/card-type/Lifestyle/platinum%20chip/icici-platinum-chip-card.png',
+	'https://crdbbank.co.tz/wp-content/uploads/2018/02/card.png',
+	'https://www.lhv.ee/assets/images/cards/partnerDebit.png',
 	'http://info.westpac.com.au/creditcards/assets/images/55day_Classic_VISA_PayWave_exp-0000.png',
-	'https://www.cashoverflow.in/wp-content/uploads/2016/05/Standard-Chartered-Platinum-Credit-Card.png',
 	'https://cdn.thesimpledollar.com/wp-content/uploads/2018/01/First-Progress-Platinum-Prestige-MasterCard%C2%AE-Secured-Credit-Card.png',
 	'https://www.telegraph.co.uk/content/dam/financial-services/Money%20Comparison/Credit%20Cards/assets/red-credit-card-400_tcm97-55103.png?imwidth=450',
-	'https://www.regionalaustraliabank.com.au/personal/products/url/-/media/CommunityMutual/Images/Content/Products/Cards/Your_Choice_Visa.png',
 	'https://www.smile.co.uk/assets/ns/smile/img/pattern-library/img-gold-credit-card.png',
 ];
 
