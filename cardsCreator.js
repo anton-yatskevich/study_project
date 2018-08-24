@@ -25,10 +25,10 @@ const createCards = (images, types, amount) => {
 		const typeId = Math.floor(Math.random() * types.length);
 		const balanceFeeMonths = Math.floor(Math.random() * 12 + 1);
 		const balanceFeeAmount = Math.floor(Math.random() * 12 + balanceFeeMonths);
-		const costAmount = Math.floor(Math.random() * 100 + 10) * 10;
-		const costMonths = Math.floor(Math.random() * 12 + 1);
-		const exmpSpend = Math.floor(Math.random() * 100 + 10) * 10;
-		const exmpPurchase = Math.floor(Math.random() * 10 + 10) * 10;
+		const costAmount = Math.floor(Math.random() * 20 + 1) * 10;
+		const costMonths = Math.floor(Math.random() * 36 + 2);
+		const exmpSpend = costAmount * costMonths;
+		const exmpPurchase = Math.floor(Math.random() * exmpSpend / 50 + 1) * 10;
 
 		const card = {
 			id: `CARD_${i}`,
@@ -55,6 +55,6 @@ const createCards = (images, types, amount) => {
 	return cards;
 };
 
-const cards = createCards(cardImgs, cardTypes, 30);
+const cards = createCards(cardImgs, cardTypes, 100);
 
 module.exports = cards;
