@@ -10,7 +10,9 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-	res.send(data);
+	setTimeout(() => {
+		res.send(data);
+	}, 3000);
 });
 
 app.listen(3000, () => {
