@@ -29,6 +29,9 @@ const createCards = (images, types, amount) => {
 		const costMonths = Math.floor(Math.random() * 36 + 2);
 		const exmpSpend = costAmount * costMonths;
 		const exmpPurchase = Math.floor(Math.random() * exmpSpend / 50 + 1) * 10;
+		const periodPercent = Math.floor(Math.random() * 15 + 5);
+		const monthsDuration = Math.floor(Math.random() * 36 + 2);
+		const thenPeriod = periodPercent + Math.floor((Math.random() * 5 + 2));
 
 		const card = {
 			id: `CARD_${i}`,
@@ -43,6 +46,11 @@ const createCards = (images, types, amount) => {
 				costToYou: {
 					amount: costAmount,
 					month: costMonths,
+				},
+				actualFee: {
+					periodPercent,
+					monthsDuration,
+					thenPeriod,
 				},
 			},
 			representativeExmp: {
